@@ -161,3 +161,13 @@ header img{
 
 
 /*contact*/
+.contact{
+    height: auto;
+    width: 100%;
+    background-color: rgb(255, 255, 240)
+}
+.contact li{
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
