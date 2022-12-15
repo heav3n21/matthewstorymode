@@ -65,6 +65,7 @@ header:hover{
 }
 header a:hover{
     text-shadow: 2px 2px 5px rgb(239, 239, 241);
+    font-size: 20px;
     
 }
 
@@ -116,7 +117,7 @@ header img{
    
 }
 .projects img:hover{
-    border: 20px solid;
+   height: 300px;
     border-radius: 15px;
    
 }
@@ -170,4 +171,7 @@ header img{
     align-items: center;
     text-align: center;
     list-style-type: none;
+}
+@media screen and (max){
+    
 }
