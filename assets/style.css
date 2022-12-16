@@ -4,6 +4,7 @@ body{
 
     margin: 0;
     font-family:  'Arial Narrow', Arial, sans-serif;
+   
 
    
 
@@ -172,6 +173,16 @@ header img{
     text-align: center;
     list-style-type: none;
 }
-@media screen and (max){
-    
-}
+@media screen and (max-width: 600px) {
+  
+    .resume{
+        opacity: 10;
+    }
+    .projects{
+        opacity: 10;
+    }
+    header{
+        
+        opacity: 10;
+    }
+  }
