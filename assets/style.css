@@ -36,8 +36,32 @@ header  {
     opacity: .7;
     height: 500px;
     margin-top: -50px;
+  
+    
+}
+
+.headertext{
     align-items: center;
 }
+
+header p a img{
+    height: 50px;
+    border-radius: 120px;
+    margin-left: -0.6%;
+    
+    animation: glow 1s infinite alternate;padding: 0.5px;
+margin-top: 5px;
+}
+
+@keyframes glow {
+    from {
+      box-shadow: 0 0 8px -3px #000000;
+    }
+    to {
+      box-shadow: 0 0 5px 3px #000000;
+    }
+  }
+
 
 
 header p{
@@ -63,6 +87,7 @@ header:hover{
     color: black;
     opacity: 10;   
     text-shadow: 2px 2px 5px rgb(36, 116, 163);
+    transition-duration: 1s;
 }
 header a:hover{
     text-shadow: 2px 2px 5px rgb(239, 239, 241);
@@ -108,6 +133,7 @@ header img{
 
     
 }
+
 .projects img{
     height: 250px;
     margin-left: 8px;
@@ -117,11 +143,7 @@ header img{
     
    
 }
-.projects img:hover{
-   height: 300px;
-    border-radius: 15px;
-   
-}
+
 
 
 
@@ -131,10 +153,24 @@ header img{
     flex-direction: column;
     opacity: 10;
     text-shadow: 2px 2px 5px rgb(159, 36, 163);
+    transition: 1s;
     ;
 
 
 }
+.img1 img{
+    height: 300px;
+}
+.img1 img:hover{
+   padding: 15px;
+}
+.projects img:hover{
+    height: 340px;
+    transition: 1800ms;
+    
+    
+    
+ }
 /*projects is done*/
 
 /*RESUME BELOW*/
@@ -150,6 +186,7 @@ header img{
     opacity: 0.7;
 
 }
+
 .resume img{
     height: 300px;
     align-items: center;
@@ -158,8 +195,9 @@ header img{
 .resume:hover{
     opacity: 10;
     text-shadow: 2px 2px 5px rgb(161, 163, 36);
-
+    transition-duration: 1s;
 }
+
 
 
 /*contact*/
@@ -173,6 +211,13 @@ header img{
     text-align: center;
     list-style-type: none;
 }
+footer{
+    height: auto;
+    background-color: black;
+    text-align: center  ;
+color: aliceblue;
+}
+/*transtions of imgs and optacity*/
 @media screen and (max-width: 600px) {
   
     .resume{
