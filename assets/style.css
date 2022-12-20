@@ -44,30 +44,13 @@ header  {
     align-items: center;
 }
 
-header p a img{
-    height: 50px;
-    border-radius: 120px;
-    margin-left: -0.6%;
-    
-    animation: glow 1s infinite alternate;padding: 0.5px;
-margin-top: 5px;
-}
-
-@keyframes glow {
-    from {
-      box-shadow: 0 0 8px -3px #000000;
-    }
-    to {
-      box-shadow: 0 0 5px 3px #000000;
-    }
-  }
 
 
 
 header p{
     border: 5px solid black;
     font-size: 50px;
-text-align: center;
+    text-align: center;
 }
 
 #headerLinks a{
@@ -80,7 +63,7 @@ text-align: center;
     margin-right: 25px;
     
     
-
+    
 }
 
 header:hover{
@@ -96,14 +79,32 @@ header a:hover{
 }
 
 header img{
+   
     text-align: center;
-  margin-left: 10%;
+    margin-left: 10%;
     float: center;
     height: 250px;
     align-items: center;
     align-content: center;
     flex-shrink: 3;
 }
+header p a img{
+    height: 50px;
+    border-radius: 120px;
+    margin-left: -0.2%;
+    
+    animation: glow 1s infinite alternate;padding: 0.5px;
+margin-top: 5px;
+}
+
+@keyframes glow {
+    from {
+      box-shadow: 0 0 8px -3px #000000;
+    }
+    to {
+      box-shadow: 0 0 5px 3px #000000;
+    }
+  }
 /*END OF HEADER*/ 
 
 
